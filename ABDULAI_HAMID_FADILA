@@ -1,0 +1,16 @@
+   56  head identityy.txt
+   57  git init 
+   58  git status
+   59  git config --global user.name="FADILA"
+   60  git config --global user.name "FADILA"
+   61  git config --global user.email "FADILA"
+   62  git config --global user.email "fadilahamid2@gmail.com"
+   63  git add .
+   64  git status
+   65  git commit -m"my first commit"
+   66  ssh-keygen -t rsa -b 2048
+   67  cat ../../.ssh/id_rsa.pub
+   68  git remote add Fadila_ssh git@github.com:fad-ila/GIT-assignment.git
+   69  git remote -v
+   70  git push -u Fadila_ssh master
+   71  history > ABDULAI_ HAMID_FADILA
